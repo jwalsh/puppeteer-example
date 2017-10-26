@@ -1,0 +1,30 @@
+{
+  "name": "puppeteer-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx babel-node index.js",
+    "version": "npx -p lolcatjs -p cowsay -c 'echo \"$npm_package_name@$npm_package_version\" | cowsay | lolcatjs'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwalsh/puppeteer-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwalsh/puppeteer-example/issues"
+  },
+  "homepage": "https://github.com/jwalsh/puppeteer-example#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2017": "^6.24.1",
+    "npx": "^9.7.1"
+  },
+  "dependencies": {
+    "puppeteer": "^0.12.0"
+  }
+}
